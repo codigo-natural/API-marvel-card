@@ -25,7 +25,7 @@ const IndexPage = () => {
       const data = response.data.data.results;
       if (data && data.length > 0) {
         setCharacters(data);
-        setTotalPages(Math.ceil(data.data.total / 10));
+        setTotalPages(Math.ceil(response.data.data.total / 10));
       }
     } catch (error) {
       console.log(error);
@@ -37,9 +37,6 @@ const IndexPage = () => {
   };
 
   const renderCharacters = () => {
-    if (!characters) {
-      return <p>Loading...</p>;
-    }
     return characters.map((character) => (
       <div key={character.id}>
         <CharacterCard key={character.id} character={character} />
