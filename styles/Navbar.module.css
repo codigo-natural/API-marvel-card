@@ -1,0 +1,19 @@
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.ul {
+  display: flex;
+  gap: 30px;
+  padding: 0 2.5em 0 2.5em;
+}
+.icon {
+  color: white;
+  width: 2em;
+  height: 2em;
+}
+.iconPush {
+  color: #c89b3c;
+  width: 2em;
+  height: 2em;
+}

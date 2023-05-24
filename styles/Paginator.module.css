@@ -1,0 +1,26 @@
+.paginator {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2em;
+  height: 2em;
+}
+.icon {
+  width: 3.5em;
+  height: 3.5em;
+  color: black;
+  font: bold;
+}
+.button {
+  display: flex;
+  width: 2.5em;
+  height: 2.5em;
+  align-items: center;
+  background-color: #c89b3c;
+  outline: none;
+  border: none;
+  border-radius: 50%;
+  cursor: pointer;
+}

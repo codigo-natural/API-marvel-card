@@ -1,0 +1,30 @@
+.card {
+  white-space: nowrap;
+  position: relative;
+  padding: 2rem 0;
+  width: 17em;
+}
+.rotator {
+  position: relative;
+  user-select: none;
+  will-change: transform;
+  transition: all 0.01s ease-out;
+  transition: all 0.01s linear;
+}
+
+.cardContent {
+  position: absolute;
+  width: -webkit-fill-available;
+  text-align: center;
+}
+.cardDescription {
+  position: relative;
+  /* width: -webkit-fill-available; */
+  text-align: center;
+}
+
+.imageWrapper {
+  /* position: relative; */
+  /* overflow: hidden; */
+  /* border-radius: 10px 10px 0 0; */
+}

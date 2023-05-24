@@ -65,12 +65,17 @@
     Bitstream Vera Sans Mono, Courier New, monospace;
 }
 
-.grid {
+.flex {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
+  gap: 1em;
+  /* flex-wrap: nowrap; */
+  margin: 0 2em 0 2em;
+  overflow-x: auto;
+
+}
+.flex img {
+  flex-shrink: 0;
+  width: 100%;
 }
 
 .card {
