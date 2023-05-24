@@ -7,9 +7,9 @@ export const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <ul className={styles.ul}>
-        <li>Logo Marvel</li>
+        <li className={styles.logo}>Logo Marvel</li>
         <li>Home</li>
-        <li>Personajes</li>
+        <li className={styles.active}>Personajes</li>
       </ul>
       <ul className={styles.ul}>
         <li><BellIcon className={styles.iconPush} /></li>

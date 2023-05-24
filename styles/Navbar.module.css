@@ -1,6 +1,7 @@
 .nav {
   display: flex;
   justify-content: space-between;
+  border-bottom: 1px solid #232323;
 }
 .ul {
   display: flex;
@@ -11,6 +12,9 @@
   color: white;
   width: 2em;
   height: 2em;
+}
+.active {
+  color: #c89b3c;
 }
 .iconPush {
   color: #c89b3c;
