@@ -1,15 +1,10 @@
 .card {
+  display: flex;
+  justify-content: center;
   white-space: nowrap;
   position: relative;
-  padding: 2rem 0;
-  width: 17em;
-}
-.rotator {
-  position: relative;
-  user-select: none;
-  will-change: transform;
-  transition: all 0.01s ease-out;
-  transition: all 0.01s linear;
+  width: 16.6em;
+  border: 1px solid #fff;
 }
 
 .cardContent {
@@ -18,13 +13,18 @@
   text-align: center;
 }
 .cardDescription {
-  position: relative;
-  /* width: -webkit-fill-available; */
+  width: 14em;
+  padding: 0 0.5em;
+  border-radius: 7px;
+  background-color: rgb(30, 35, 40);
+  border: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
   text-align: center;
+  margin-bottom: 0.5em;
 }
-
-.imageWrapper {
-  /* position: relative; */
-  /* overflow: hidden; */
-  /* border-radius: 10px 10px 0 0; */
+.footer {
+  position: absolute;
+  bottom: 1em;
 }
