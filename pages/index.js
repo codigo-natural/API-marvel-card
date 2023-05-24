@@ -23,10 +23,8 @@ const IndexPage = () => {
         }&offset=${(currentPage - 1) * 10}&limit=10`
       );
       const data = response.data.data.results;
-      if (data && data.length > 0) {
-        setCharacters(data);
-        setTotalPages(Math.ceil(response.data.data.total / 10));
-      }
+      setCharacters(data);
+      setTotalPages(Math.ceil(response.data.data.total / 10));
     } catch (error) {
       console.log(error);
     }
